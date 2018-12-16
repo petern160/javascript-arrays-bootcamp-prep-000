@@ -39,5 +39,5 @@ function destructivelyRemoveElementFromEndOfArray  (sun, moon){
 }
 
 function removeElementFromEndOfArray  (sun, moon){
-  return(sun.slice(1))
+  return sun.slice(1)
 }
