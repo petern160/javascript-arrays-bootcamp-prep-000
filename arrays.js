@@ -38,6 +38,6 @@ function destructivelyRemoveElementFromEndOfArray  (sun, moon){
   return sun
 }
 
-function removeElementFromEndOfArray(sun){
-  return sun.slice(0, chocolateBars.length - 1);
+function removeElementFromEndOfArray(chocolateBars){
+  return chocolateBars.slice(0, chocolateBars.length - 1);
 }
