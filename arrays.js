@@ -28,8 +28,8 @@ function destructivelyRemoveElementFromBeginningOfArray (sun, moon){
 }
 
 function removeElementFromBeginningOfArray (sun, moon){
-  sun.slice(-1)
-  return sun
+  return sun.slice(-1)
+  
 }
 
 function destructivelyRemoveElementFromEndOfArray  (sun, moon){
