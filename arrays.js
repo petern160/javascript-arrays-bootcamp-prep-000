@@ -28,9 +28,10 @@ function destructivelyRemoveElementFromBeginningOfArray (sun, moon){
 }
 
 function removeElementFromBeginningOfArray (sun, moon){
-  return sun.slice(-1)
-
+  return sun.slice(1);
 }
+
+
 
 function destructivelyRemoveElementFromEndOfArray  (sun, moon){
   sun.pop(moon)
