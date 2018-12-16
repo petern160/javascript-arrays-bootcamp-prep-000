@@ -36,3 +36,6 @@ function destructivelyRemoveElementFromEndOfArray  (sun, moon){
   sun.pop(moon)
   return sun
 }
+function removeElementFromEndOfArray  (sun, moon){
+  return(sun.slice(1))
+}
